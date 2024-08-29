@@ -1,0 +1,57 @@
+.navbar1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 180px;
+  margin-bottom: 10px;
+  background-color: rgb(230, 197, 19);
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.navbar-left {
+  justify-content: flex-start;
+  margin: 0 55px;
+}
+
+.navbar-right {
+  justify-content: flex-end;
+  margin: 0 110px;
+  min-width: 300px;
+}
+
+.navbar-right1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 0;
+}
+
+.navbar-right2 {
+  justify-content: flex-end;
+  float: inline-end;
+}
+
+.navbar-right2 h4 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.button-login {
+  width: 100px;
+  height: 50px;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+.svg-icon {
+  height: 60px;
+  cursor: pointer;
+}

@@ -1,0 +1,126 @@
+.container-box {
+  width: 92vw;
+  margin: 50px auto;
+}
+
+/* .row1 {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin: 40px 0;
+} */
+
+.first-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-row-box {
+  width: 500px;
+  height: 416px;
+  background-color: #fff;
+  box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.25),
+    0px 10px 10px 0px rgba(0, 0, 0, 0.22);
+  margin: 0 30px;
+}
+
+.row2 {
+  display: grid;
+  grid-template-columns: 35% 25% 40%;
+  margin: 40px 0;
+}
+
+.row3 {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  margin: 40px 0;
+  padding: 40px 0;
+  border-bottom: 4px solid yellow;
+}
+
+.content-box {
+  height: 424px;
+  background-color: #fff;
+  box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.25),
+    0px 10px 10px 0px rgba(0, 0, 0, 0.22);
+  margin: 0 30px;
+}
+
+.content-box2 {
+  height: 840px;
+  background-color: #fff;
+  box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.25),
+    0px 10px 10px 0px rgba(0, 0, 0, 0.22);
+  margin: 0 30px;
+  display: inline;
+  position: relative;
+}
+
+.content-text {
+  padding: 30px;
+}
+
+.content-text h4 {
+  font-size: 25px;
+  color: red;
+  font-weight: 600;
+}
+
+.content-text p {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.poster-image {
+  width: 100%;
+}
+
+.inner-row1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.inner-row2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.content-box-container {
+  background-color: #fff;
+}
+
+.content-box3 {
+  height: 400px;
+  background-color: #fff;
+  box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.25),
+    0px 10px 10px 0px rgba(0, 0, 0, 0.22);
+  margin: 0 30px 40px 30px;
+  display: inline;
+  position: relative;
+}
+
+.first-row-box img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.content-box img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.content-box2 img {
+  max-width: 200px;
+  position: absolute;
+  top: 170px;
+}
+
+.content-box3 img {
+  max-width: 200px;
+  position: absolute;
+  top: 170px;
+}
