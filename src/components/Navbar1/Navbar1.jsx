@@ -1,5 +1,5 @@
 import "./Navbar1.css";
-import logo from "../../images/prekkhapotLogo.jpg";
+import logo from "../../images/prekkhapotLogo.png";
 import search from "../../images/search.svg";
 import menu from "../../images/menu.svg";
 

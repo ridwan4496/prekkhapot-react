@@ -1,5 +1,5 @@
 import "./Footer.css";
-import logo from "../../images/prekkhapotLogo.jpg";
+import logo from "../../images/prekkhapotLogo.png";
 
 const Footer = () => {
   return (
